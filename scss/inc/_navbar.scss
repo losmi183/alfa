@@ -1,0 +1,54 @@
+.navbar {
+    background: $gray-dark !important;
+
+    ul li a {
+        color: white !important;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    ul li {
+        transition: all 0.3s;
+        border-left: 6px solid transparent;
+        &:hover {
+            border-left: 6px solid $primary-color;
+        }
+    }
+    // Active Link
+    .active {
+        border-left: 6px solid $primary-color;
+    }
+
+    .dropdown-menu {
+        margin-top: 9px;
+        padding: 0 !important;
+        background: $gray-dark !important;
+        .dropdown-item:hover {
+            background: $primary-color;
+        }
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+        padding-left: 0 !important;
+    }
+
+
+
+    @media (max-width: 991.98px) { 
+        .active {
+            border-left: none !important;
+        }
+        ul li {
+            &:hover {
+                border-left: none !important;
+                padding-left: 10px;
+            }
+        }
+        .navbar-nav {
+            padding-top: 20px !important;
+        }
+    }
+
+}

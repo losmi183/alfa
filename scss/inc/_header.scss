@@ -1,0 +1,30 @@
+/**
+* HEADER
+*/
+header {
+    
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 0;
+    }
+
+    .icons-wrapper {
+        .icon {
+            margin-right: 70px;
+        }
+        .icon:last-child {
+            margin-right: 0;
+        }
+    }
+    .icon {
+        display: flex;
+        align-items: center;
+    }
+    .vertical-line {
+        border-right: 1px solid $gray-light;
+        height: 70px;
+        margin: 0 10px;
+    }
+}

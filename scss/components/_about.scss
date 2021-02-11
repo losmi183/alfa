@@ -1,0 +1,44 @@
+#about {
+    padding: 40px 0;
+    background: $gray-light;
+
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 18px;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        span {
+            color: $primary-color;
+            font-size: 24px;
+            margin-left: 10px;
+        }
+    }
+
+    .right-wrapper {
+        background: url('/img/about-bg.jpg');
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .box {
+            background: $primary-color;
+            padding: 10px;
+            width: 125px;
+            height: 125px;
+            margin-right: 20px;
+            display: flex;
+            align-items: flex-end;
+            p {
+                color: white;
+                font-size: 25px;
+                line-height: 1;
+            }
+        }
+    }
+}

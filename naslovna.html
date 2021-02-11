@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="space-15 primary-bg"></div>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo-wrapper">
+                    <img class="img-fluid" src="/img/logo.jpg">
+                </div>
+                <div class="icons-wrapper d-sm-flex">
+
+                    <div class="icon">
+                        <div class="icon-wrapper">
+                            <img class="img-fluid" src="/img/location-icon.png" alt="">
+                        </div>
+                        <div class="vertical-line d-none d-sm-block"></div>
+                        <div class="text-wrapper">
+                            <p>Kneza Miloša 61</p>
+                            <p>35210 Svilajnac, Srbija</p>
+                        </div>
+                    </div>
+
+                    <div class="icon">
+                        <div class="icon-wrapper">
+                            <img class="img-fluid" src="/img/contact-icon.png" alt="">
+                        </div>
+                        <div class="vertical-line d-none d-sm-block"></div>
+                        <div class="text-wrapper">
+                            <p>+381(0) 35 312 359</p>
+                            <p>office@alfatechnics.net</p>
+                        </div>
+                    </div>
+
+                    <div class="icon">
+                        <div class="icon-wrapper">
+                            <img class="img-fluid" src="/img/lang-icon.png" alt="">
+                        </div>
+                        <div class="vertical-line d-none d-sm-block"></div>
+                        <div class="text-wrapper">
+                            <p>Eng</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <img  class="navbar-toggler" src="/img/hamburger.png" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+              <!-- <span class="navbar-toggler-icon"></span> -->
+            <!-- </button> -->
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav w-100 d-flex justify-content-between">
+                <li class="nav-item active"><a class="nav-link " href="/">NASLOVNA</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">O NAMA</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">PROIZVODNI PROGRAM</a></li>
+                <li class="nav-item"><a class="nav-link" href="/customers">USLUGE</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        INFO CENTAR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">FOTO I VIDEO GALERIJA</a>
+                        <a class="dropdown-item" href="#">VESTI</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="#">PREUZIMANJA</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="/customers">KARIJERA</a></li>
+                <li class="nav-item"><a class="nav-link" href="/customers">KONTAKT</a></li>
+              </ul>
+          
+            </div>
+        </div>
+    </nav>
+
+    <!-- SLIDER  -->
+    <div id="carouselExampleControls" class="carousel slide d-none d-md-block" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background: url('/img/slider/1.jpg'); background-position: center;">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Kompletna gotova rešenja</h3>
+            </div>   
+          </div>
+
+          <div class="carousel-item" style="background: url('/img/slider/2.jpg'); background-position: center;">
+            <!-- <img class="d-block w-100" src="/img/slider/2.jpg" alt="Second slide"> -->
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Lorem ipsum</h3>
+            </div>  
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- SHOWCASE -->
+    <section id="showcase">
+        <div class="container-custom">
+
+            <div class="showcase-slider">
+                <div class="box-showcase">
+                    <img class="img-fluid" src="/img/showcase/metalne_palete.jpg" alt="">
+                    <div class="title">Transportni <br> sistemi</div>
+                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div class="footer"><img src="/img/link-icon.png" alt=""></div>
+                </div>              
+                <div class="box-showcase">
+                    <img class="img-fluid" src="/img/showcase/most.jpg" alt="">
+                    <div class="title">Transportni <br> sistemi</div>
+                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div class="footer"><img src="/img/link-icon.png" alt=""></div>
+                </div>
+                <div class="box-showcase">
+                    <img class="img-fluid" src="/img/showcase/oprema_po_zahtevu_kupaca.jpg" alt="">
+                    <div class="title">Transportni <br> sistemi</div>
+                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div class="footer"><img src="/img/link-icon.png" alt=""></div>
+                </div>
+                <div class="box-showcase">
+                    <img class="img-fluid" src="/img/showcase/radne_stanice.jpg" alt="">
+                    <div class="title">Transportni <br> sistemi</div>
+                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div class="footer"><img src="/img/link-icon.png" alt=""></div>
+                </div>                
+                <div class="box-showcase">
+                    <img class="img-fluid" src="/img/showcase/sistemi.jpg" alt="">
+                    <div class="title">Transportni <br> sistemi</div>
+                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div class="footer"><img src="/img/link-icon.png" alt=""></div>
+                </div>
+
+            </div>
+
+  
+        </div>
+    </section>
+
+    <div class="line-6"></div>
+
+    <!-- ABOUT  -->
+    <section id="about" class="text-center text-sm-left">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <h2>
+                        <span class="primary-color no-wrap">ALFA Technics</span> 
+                        <span class="d-none d-sm-inline">-</span> 
+                        <span class="no-wrap">O nama</span> 
+                    </h2>
+                    <p class="my-4">Alfa Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrije, koja svaki svoj proizvod isprati od ideje, do finalnog postavljanja i funkcionalnog osposobljavanja po zamisli i potrebama kupca. Iza nas je veliki broj uspešno završenih projekata u zemlji i inostranstvu, a potvrda kvaliteta su naši zadovoljni klijenti, koji nam se ponovo vraćaju.</p>
+                    
+                    <!-- 8 Items 2 cols  -->
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>3D modeliranje</span>
+                            </div>
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>Lasersko sečenje</span>
+                            </div>
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>CNC probijanje</span>
+                            </div>    
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>Zavarivanje</span>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>Sečenje</span>
+                            </div>
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>Plazma sečenje</span>
+                            </div>
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>Savijanje</span>
+                            </div>    
+                            <div class="item">
+                                <img src="/img/check.png" alt="">
+                                <span>Mašinske i bravarske obrade</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-6">
+                    <div class="right-wrapper">
+                        <div class="box"><p>Naša <br> brošura</p></div>
+                        <div class="box"><p>Kodeks <br> ponašanja</p></div>
+                        <div class="box"><p>Naši <br> sertifikati</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- REFERENCE  -->
+    <section id="reference">
+        <div class="container">
+            <div class="title">Reference</div>
+            <div class="bg-line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure vitae amet tenetur delectus dolor, eligendi sequi doloribus molestias, pariatur tempore. Iure est possimus, corporis expedita repellat vitae porro reprehenderit.</p>
+        </div>
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center"><img src="/img/ref.jpg" alt=""></div>
+                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" alt=""></div>
+                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" alt=""></div>
+                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVOSTI  -->
+    <section id="novosti">
+        <div class="container">
+            <h2 class="primary-color mb-5">Novosti</h2>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="news-box">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text-wrapper">
+                                    <p class="title">Lorem ipsum dolor sit amet</p>
+                                    <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
+                                    <a href="#" class="btn1">Pročitaj više</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="news-box">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text-wrapper">
+                                    <p class="title">Lorem ipsum dolor sit amet</p>
+                                    <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
+                                    <a href="#" class="btn1">Pročitaj više</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="news-box">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text-wrapper">
+                                    <p class="title">Lorem ipsum dolor sit amet</p>
+                                    <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
+                                    <a href="#" class="btn1">Pročitaj više</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="news-box">
+                        <div class="row">
+
+                            <div class="col-sm-5">
+                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="text-wrapper">
+                                    <p class="title">Lorem ipsum dolor sit amet</p>
+                                    <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
+                                    <a href="#" class="btn1">Pročitaj više</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MAP  -->
+    <section id="map">
+        <!-- <img src="/img/map.jpg" alt=""> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45739.36650166788!2d21.15395963928189!3d44.2336202801669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47572730c0f9134f%3A0x33c620f83571a39a!2sAlfa%20Technics!5e0!3m2!1sen!2srs!4v1613009165424!5m2!1sen!2srs" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+    <!-- Contact  -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center text-md-left">
+                <div class="col-md mb-5 center">
+                    <div class="logo-wrapper">
+                        <img class="img-fluid" src="/img/logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="vertical-line2"></div>
+                <div class="col-md mb-5">                    
+                    <h5>ALFA TECHNICS D.O.O</h5>
+                   <p>Kneza Miloša 61 <br>
+                   35210 Svilajnac, Srbija</p>                   
+                   <p>+381(0) 35 312 359</p>
+                   <p>office@alfatechnics.net</p>
+                </div>
+                <div class="vertical-line2"></div>
+                <div class="col-md mb-5">
+                    <h5>ZAŠTO BAŠ MI</h5>
+                    <p>Naša misija je - kvalitetan proizvod, poštovanje rokova i zadovoljan kupac. Iskrenost u komunikaciji sa klijentima je poslovna deviza svih nas u Alfa Technicsu. Nikad ne obećavamo nešto što je nemoguće ili neizvodljivo.</p>
+                </div>
+                <div class="vertical-line2"></div>
+                <div class="col-md mb-5">
+                    <div class="icons-wrapper">
+                        <img src="/img/facebook-icon.png" alt="">
+                        <img src="/img/instagram-icon.png" alt="">
+                        <img src="/img/youtube-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <p>Sva prava zadržana © 2021 Alfa Technics</p>
+            <p>Izrada web sajta</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.showcase-slider').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            dots: false,
+            prevArrow: false,
+            nextArrow: false,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }  
+            ]   
+        });
+    </script>
+
+</body>
+</html>

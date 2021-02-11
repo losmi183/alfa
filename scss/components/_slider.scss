@@ -1,0 +1,30 @@
+.carousel-item {
+    position: relative;
+    text-align: center;
+    height: 500px;
+
+    .carousel-caption {
+        padding: 0;
+        // transform: translateY(-50%);
+        bottom: 0;
+        top: 40%;
+      }
+
+    .carousel-caption h3 {
+        font-size: 65px;
+        position: relative;
+        &::after {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            display: block;
+            height: 6px;
+            width: 80%;
+            background: $primary-color;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);        
+        }
+    }
+
+}
