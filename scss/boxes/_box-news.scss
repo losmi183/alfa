@@ -1,0 +1,71 @@
+.news-box {
+    margin-bottom: 50px;
+
+    .img-wrapper {
+        overflow: hidden;
+        padding: 6px;
+        background: $gray-light;
+        // border: 6px solid $gray-light;
+        img {
+            transition: all 1s;
+            width: 100%;
+            height: auto;
+        }
+        position: relative;
+    }
+
+    .title {
+        font-size: 25px;
+        color: $primary-color;
+        margin-bottom: 10px;
+    }
+    .body {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    // Animation
+    .dot {        
+        width: 6px;
+        height: 6px;
+        background: $primary-color;
+        position: absolute;
+    }
+    .top-left-1, .top-left-2 {
+        transition: all 0.3s;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+    .bottom-right-1, .bottom-right-2 {
+        transition: all 0.3s;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+    }
+    .img-wrapper:hover {
+        .top-left-1 {
+            width: 100%;
+            opacity: 1;
+        }
+        .top-left-2 {
+            height: 100%;
+            opacity: 1;
+        }
+        .bottom-right-1 {
+            width: 100%;
+            opacity: 1;
+        }
+        .bottom-right-2 {
+            height: 100%;
+            opacity: 1;
+        }
+        img {
+            filter: brightness(60%);
+
+        }
+    }
+
+
+
+}

@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    
+    <!-- Slick slider CDN  -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <!-- AOS CDN  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/app.css">
 
-    <title>Document</title>
+    <title>Alfa</title>
 </head>
 <body>
 
@@ -73,20 +77,20 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav w-100 d-flex justify-content-between">
-                <li class="nav-item active"><a class="nav-link " href="/">NASLOVNA</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about">O NAMA</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact">PROIZVODNI PROGRAM</a></li>
-                <li class="nav-item"><a class="nav-link" href="/customers">USLUGE</a></li>
+                <li class="nav-item active"><a class="nav-link " href="/naslovna.html">NASLOVNA</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">O NAMA</a></li>
+                <li class="nav-item"><a class="nav-link" href="/unutrasnja.html">PROIZVODNI PROGRAM</a></li>
+                <li class="nav-item"><a class="nav-link" href="/unutrasnja.html">USLUGE</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         INFO CENTAR
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">FOTO I VIDEO GALERIJA</a>
-                        <a class="dropdown-item" href="#">VESTI</a>
+                        <a class="dropdown-item" href="/info-centar.html">FOTO I VIDEO GALERIJA</a>
+                        <a class="dropdown-item" href="/vesti.html">VESTI</a>
                         <!-- <div class="dropdown-divider"></div> -->
-                        <a class="dropdown-item" href="#">PREUZIMANJA</a>
+                        <a class="dropdown-item" href="/preuzimanja.html">PREUZIMANJA</a>
                     </div>
                 </li>
 
@@ -125,44 +129,44 @@
         </a>
     </div>
 
+
     <!-- SHOWCASE -->
     <section id="showcase">
         <div class="container-custom">
 
             <div class="showcase-slider">
-                <div class="box-showcase">
+                <a href="/info-centar.html" class="box-showcase" data-aos="fade-down">
                     <img class="img-fluid" src="/img/showcase/metalne_palete.jpg" alt="">
                     <div class="title">Transportni <br> sistemi</div>
                     <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                     <div class="footer"><img src="/img/link-icon.png" alt=""></div>
-                </div>              
-                <div class="box-showcase">
+                </a>              
+                <a href="/info-centar.html" class="box-showcase" data-aos="fade-up">
                     <img class="img-fluid" src="/img/showcase/most.jpg" alt="">
                     <div class="title">Transportni <br> sistemi</div>
                     <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                     <div class="footer"><img src="/img/link-icon.png" alt=""></div>
-                </div>
-                <div class="box-showcase">
+                </a>
+                <a href="/info-centar.html" class="box-showcase" data-aos="fade-down">
                     <img class="img-fluid" src="/img/showcase/oprema_po_zahtevu_kupaca.jpg" alt="">
                     <div class="title">Transportni <br> sistemi</div>
                     <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                     <div class="footer"><img src="/img/link-icon.png" alt=""></div>
-                </div>
-                <div class="box-showcase">
+                </a>
+                <a href="/info-centar.html" class="box-showcase" data-aos="fade-up">
                     <img class="img-fluid" src="/img/showcase/radne_stanice.jpg" alt="">
                     <div class="title">Transportni <br> sistemi</div>
                     <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                     <div class="footer"><img src="/img/link-icon.png" alt=""></div>
-                </div>                
-                <div class="box-showcase">
+                </a>                
+                <a href="/info-centar.html" class="box-showcase" data-aos="fade-down">
                     <img class="img-fluid" src="/img/showcase/sistemi.jpg" alt="">
                     <div class="title">Transportni <br> sistemi</div>
                     <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                     <div class="footer"><img src="/img/link-icon.png" alt=""></div>
-                </div>
+                </a>
 
             </div>
-
   
         </div>
     </section>
@@ -174,7 +178,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right">
                     <h2>
                         <span class="primary-color no-wrap">ALFA Technics</span> 
                         <span class="d-none d-sm-inline">-</span> 
@@ -223,7 +227,7 @@
                     </div>
                 </div>
     
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left">
                     <div class="right-wrapper">
                         <div class="box"><p>Naša <br> brošura</p></div>
                         <div class="box"><p>Kodeks <br> ponašanja</p></div>
@@ -244,10 +248,10 @@
         </div>
         <div class="container-custom">
             <div class="row">
-                <div class="col-md-3 d-flex justify-content-center"><img src="/img/ref.jpg" alt=""></div>
-                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" alt=""></div>
-                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" alt=""></div>
-                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" alt=""></div>
+                <div class="col-md-3 d-flex justify-content-center"><img src="/img/ref.jpg" data-aos="zoom-in"></div>
+                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" data-aos="zoom-in"></div>
+                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" data-aos="zoom-in"></div>
+                <div class="col-md-3 d-none d-md-block"><img src="/img/ref.jpg" data-aos="zoom-in"></div>
             </div>
         </div>
     </section>
@@ -259,73 +263,105 @@
             <div class="row">
 
                 <div class="col-lg-6">
-                    <div class="news-box">
+                    <div class="news-box" data-aos="fade-right">
                         <div class="row">
-
                             <div class="col-sm-5">
-                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                                <a href="/vest.html">
+                                    <div class="img-wrapper">
+                                        <img class="" src="/img/novost.jpg" alt="">
+                                        <div class="dot top-left-1"></div>
+                                        <div class="dot top-left-2"></div>
+                                        <div class="dot bottom-right-1"></div>
+                                        <div class="dot bottom-right-2"></div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-sm-7">
                                 <div class="text-wrapper">
                                     <p class="title">Lorem ipsum dolor sit amet</p>
                                     <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
-                                    <a href="#" class="btn1">Pročitaj više</a>
+                                    <a href="/vest.html" class="btn1">Pročitaj više</a>
                                 </div>
                             </div>
                         </div>
                     </div>                    
                 </div>
+
                 <div class="col-lg-6">
-                    <div class="news-box">
+                    <div class="news-box" data-aos="fade-left">
                         <div class="row">
-
                             <div class="col-sm-5">
-                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                                <a href="/vest.html">
+                                    <div class="img-wrapper">
+                                        <img class="" src="/img/novost.jpg" alt="">
+                                        <div class="dot top-left-1"></div>
+                                        <div class="dot top-left-2"></div>
+                                        <div class="dot bottom-right-1"></div>
+                                        <div class="dot bottom-right-2"></div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-sm-7">
                                 <div class="text-wrapper">
                                     <p class="title">Lorem ipsum dolor sit amet</p>
                                     <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
-                                    <a href="#" class="btn1">Pročitaj više</a>
+                                    <a href="/vest.html" class="btn1">Pročitaj više</a>
                                 </div>
                             </div>
                         </div>
                     </div>                    
                 </div>
+
                 <div class="col-lg-6">
-                    <div class="news-box">
+                    <div class="news-box" data-aos="fade-right">
                         <div class="row">
-
                             <div class="col-sm-5">
-                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                                <a href="/vest.html">
+                                    <div class="img-wrapper">
+                                        <img class="" src="/img/novost.jpg" alt="">
+                                        <div class="dot top-left-1"></div>
+                                        <div class="dot top-left-2"></div>
+                                        <div class="dot bottom-right-1"></div>
+                                        <div class="dot bottom-right-2"></div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-sm-7">
                                 <div class="text-wrapper">
                                     <p class="title">Lorem ipsum dolor sit amet</p>
                                     <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
-                                    <a href="#" class="btn1">Pročitaj više</a>
+                                    <a href="/vest.html" class="btn1">Pročitaj više</a>
                                 </div>
                             </div>
                         </div>
                     </div>                    
                 </div>
+                
                 <div class="col-lg-6">
-                    <div class="news-box">
+                    <div class="news-box" data-aos="fade-left">
                         <div class="row">
-
                             <div class="col-sm-5">
-                                <div class="img-wrapper"><img class="" src="/img/novost.jpg" alt=""></div>
+                                <a href="/vest.html">
+                                    <div class="img-wrapper">
+                                        <img class="" src="/img/novost.jpg" alt="">
+                                        <div class="dot top-left-1"></div>
+                                        <div class="dot top-left-2"></div>
+                                        <div class="dot bottom-right-1"></div>
+                                        <div class="dot bottom-right-2"></div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-sm-7">
                                 <div class="text-wrapper">
                                     <p class="title">Lorem ipsum dolor sit amet</p>
                                     <p class="body">ALFA Technics d.o.o. je projektno - proizvodna kompanija u oblasti metalopreradjivačke industrijie, koja svaki svoj proizvod isprati.</p>
-                                    <a href="#" class="btn1">Pročitaj više</a>
+                                    <a href="/vest.html" class="btn1">Pročitaj više</a>
                                 </div>
                             </div>
                         </div>
                     </div>                    
                 </div>
+
 
             </div>
 
@@ -383,7 +419,18 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Slick JS  -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            disable: 'mobile'
+        });
+    </script>
 
     <script>
         $('.showcase-slider').slick({

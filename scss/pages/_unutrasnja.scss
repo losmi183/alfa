@@ -1,0 +1,40 @@
+#unutrasnja {
+    // padding: 30px 0;
+
+    .sidenav {
+
+        background: $white-dark;
+
+
+        li a {
+            display: block;
+            letter-spacing: 0px;
+            padding: 10px;
+            color: $gray-dark;
+            font-size: 24px;
+            // font-weight: 400;
+            &:hover {
+                text-decoration: none;
+                background: $gray-dark;
+                color: white;
+            }
+        }
+    }
+
+    .systems-list {
+        h6 {
+            font-weight: 400;
+        }
+        div {
+            display: flex;
+            align-items: baseline;
+            font-size: 20px;
+        }
+        img {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+
+
+}

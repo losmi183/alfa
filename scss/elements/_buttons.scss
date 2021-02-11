@@ -3,4 +3,12 @@
     font-size: 20px;
     background: $gray-dark;
     padding: 8px 24px;
+
+    transition: all 0.3s;
+
+    &:hover {
+        color: white;
+        background: #444;
+        text-decoration: none;
+    }
 }

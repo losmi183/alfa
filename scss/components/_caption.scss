@@ -1,0 +1,23 @@
+#caption {
+    background: url('/img/caption.jpg');
+    // background-position: top: 0px;
+    background-repeat: no-repeat;
+    min-height: 240;
+
+    padding: 70px 0;
+
+    .title {
+        font-size: 50px;
+        color: white;    
+        line-height: 1;    
+    }
+    p {
+        color: white;
+    }
+    .underline {
+        height: 6px;
+        background: $primary-color;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}

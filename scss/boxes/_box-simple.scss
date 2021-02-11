@@ -1,0 +1,96 @@
+.box-simple {
+    margin: 15px 0;
+    border: 3px solid #e7e7e7;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        display: block;
+        z-index: 5;
+        background: rgba($color: red, $alpha: 0);
+        transition: all 0.3s;
+    }
+    &:after {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        opacity: 0;
+        content: url('/img/overlay-img.png');
+        transition: all 0.4s;
+        transition-delay: 0.2s;
+    }
+
+    &:hover {
+        &::before {
+            background: rgba($color: red, $alpha: 0.4);
+        }
+        &::after {
+            opacity: 1;
+        }
+        border: 3px solid #aaa;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+// Box simple for video gallery
+.box-simple-2 {
+    margin: 15px 0;
+    border: 3px solid #e7e7e7;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        display: block;
+        z-index: 5;
+        background: rgba($color: red, $alpha: 0);
+        transition: all 0.3s;
+    }
+    &:after {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        opacity: 0;
+        content: url('/img/overlay-video.png');
+        transition: all 0.4s;
+        transition-delay: 0.2s;
+
+    }
+
+    &:hover {
+        &::before {
+            background: rgba($color: red, $alpha: 0.4);
+        }
+        &::after {
+            opacity: 1;
+        }
+        border: 3px solid #aaa;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

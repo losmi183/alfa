@@ -17,12 +17,21 @@
 @import 'components/novosti';
 @import 'components/contact';
 @import 'components/map';
+@import 'components/caption';
 
 // Boxes
 @import 'boxes/box-showcase';
+@import 'boxes/box-simple';
+@import 'boxes/box-news';
 
-// Buttons
+// ELEMENTS
 @import 'elements/buttons';
+
+// PAGES
+@import 'pages/unutrasnja';
+@import 'pages/preuzimanja';
+@import 'pages/vest';
+
 
 // @import 'mobile';
 @import 'mobile';

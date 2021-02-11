@@ -6,6 +6,7 @@
 .box-showcase {
     margin: 2px;
     position: relative;
+    overflow: hidden;
 
     .title {
         position: absolute;
@@ -30,6 +31,17 @@
         position: absolute;
         right: 15px;
         bottom: 15px;
+    }
+
+    img.img-fluid {
+        transition: all 0.3s ;
+    }
+    
+    &:hover {
+        img.img-fluid {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
     }
 
 }
